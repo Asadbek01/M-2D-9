@@ -1,0 +1,37 @@
+.icons{
+   width: 50%;
+   color: blue;
+   text-align: center;
+   margin: 0 auto;
+  
+}
+/* <!-- EXERCISE 1
+Create a Jumbotron section with a quick explanation / image of the website.
+Make it appear with a fade-in animation effect when the page loads.
+--> */
+
+.jumbotron {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.music-badge{
+    position: absolute;
+    right: 0;
+    left: 0;
+    
+    
+}
+/* <!-- EXERCISE 2
+Use a Bootstrap Card to contain every album in the favorite list you previously created.
+Use the elements of a card bootstrap provides you with to display nicely the album informations such as: album title, artist, year, etc..
+--> */
